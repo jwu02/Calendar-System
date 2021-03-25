@@ -9,7 +9,7 @@ which you can do so by following [this tutorial](https://youtu.be/XBj_le81sAc?t=
 After starting the `Apache` and `MySQL` modules on XAMPP, you can set up the database by entering `localhost/phpmyadmin/` in your URL bar, 
 create a new database and import `calendarsystem.sql` into it, which is a series of SQL queries/template for recontructing the database I created.
 
-Ensure you have put this cloned repository in xampp/hdoc/, then enter `localhost/Calendar-System/index.php` in your URL bar to view the website.
+Ensure you have put this cloned repository in `xampp/hdoc/`, then enter `localhost/Calendar-System/index.php` in your URL bar to view the website.
 
 ## Note
 A user will only be able to perform create, write and delete actions if they are logged in to the system. 
