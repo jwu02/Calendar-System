@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background: #313131;
+}
+
+input, button {
+    border: none;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover, .event-strip:hover {
+    cursor: pointer;
+}
+
+input, button:focus, textarea {
+    outline: none;
+}
+
+.header-button {
+    background-color: #ebc132;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.header-button:hover {
+    background-color: white;
+    color: #ebc132;
+    transition: all 0.2s ease;
+}
+
+.delete-button {
+    background-color: #f74951;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: white;
+    color: #f74951;
+    transition: all 0.2s ease;
+}
+
+.cancel-button {
+    background-color: #313131;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.cancel-button:hover {
+    background-color: white;
+    color: #313131;
+    transition: all 0.2s ease;
+}
+
+#header-login {
+    float: right;
+}
+
+#header-date {
+    color: white;
+    margin: 0 50px;    
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#event-container {
+    width: 100%
+}
+
+#calendar {
+    float: left;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 10%;
+    vertical-align: top;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#calendar td {
+    height: 120px;
+}
+
+.event-strip {
+    padding: 2px;
+}
+
+#event-info {
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    width: 200px;
+    z-index: 2;
+}
+
+#close-button {
+    text-align: center;
+    padding: 2px 6px;
+    border-radius: 50%;
+    float:right;
+}
+
+#edit-form {
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    width: 200px;
+    z-index: 3;
+}
+
+#event-form {
+    display: none;
+    position: absolute;
+    right: 250px;
+    top: 100px;
+    width: 20%;
+    z-index: 9;
+}
+
+#daily-view {
+    padding: 5px;
+    width: 8%;
+    margin-left: 10px;
+    float: left;
+}
+
+/*societies page additional styling*/
+#society-container {
+    width: 100%;
+    padding: 10px;
+}
+
+#Monday,#Tuesday,#Wednesday,#Thursday,#Friday {
+    float: left;
+    width: 15%;
+    margin-right: 10px;
+}
+
+.add-form {
+    border: 1px solid;
+    padding: 5px;
+    border-radius:5px;
+    background-color: white;
+}
+
+#society-form {
+    width: 20%;
+    margin: auto;
+    float: left;
+}
+
+.society {
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+input[type="text"], input[type="date"], input[type="time"], #day, #description, input[type="password"] {
+    border: 1px solid;
+    padding: 2px;
+    border-radius:5px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+#description {
+    width: 100%;
+}
+
+#add-button {
+    display: inline-block;
+}
+
+/*login page additional stylings*/
+#login-form {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*settings page additional stylings*/
+#settings-container {
+    padding: 10px;
+    width: 100%;
+}
