@@ -4,31 +4,31 @@ The information should then be displayed to inform students of the opportunities
 
 ## Core Functionalities
 
-![login page](./screenshots/login.png)
+![login page](./screenshots/login.PNG)
 ### Login system
 Credentials for logging in to the calendar system:
 username: `admin`
 
 password: `admin123`
 
-![mainmenu page](./screenshots/mainmenu.png)
+![mainmenu page](./screenshots/mainmenu.PNG)
 ### Main menu
 This page displays the events, clicking on a date label on the calendar displays 
 a form for the user to add details for an event
-![form for add events](./screenshots/add_event.png)
+![form for add events](./screenshots/add_event.PNG)
 
 Clicking on an existing event displays more details about them
-![display event details](./screenshots/event_details.png)
+![display event details](./screenshots/event_details.PNG)
 
 Clicking on the edit button allows you to modify the details
-![edit event details](./screenshots/edit_event.png)
+![edit event details](./screenshots/edit_event.PNG)
 
-![societies page](./screenshots/society.png)
+![societies page](./screenshots/society.PNG)
 ### Societies
 Clicking on a society name label displays its details in a form for you to update
-![edit society details](./screenshots/edit_society.png)
+![edit society details](./screenshots/edit_society.PNG)
 
-![settings page](./screenshots/settings.png)
+![settings page](./screenshots/settings.PNG)
 ### Settings
 This page allows the user to change their password
 
