@@ -19,10 +19,8 @@ A normal visitor to the website, say a student, will only be able to view the ev
 ![login page](./screenshots/login.PNG)
 ### Login system
 Credentials for logging in to the calendar system:
-
-username: `admin`
-
-password: `admin123`
+- username: `admin`
+- password: `admin123`
 
 ![mainmenu page](./screenshots/mainmenu.PNG)
 ### Main menu
