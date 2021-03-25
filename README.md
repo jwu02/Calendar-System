@@ -16,16 +16,21 @@ A user will only be able to perform create, write and delete actions if they are
 A normal visitor to the website, say a student, will only be able to view the events.
 
 ## Core Functionalities
-![login page](./screenshots/login.PNG)
+
 ### Login system
+![login page](./screenshots/login.PNG)
+
 Credentials for logging in to the calendar system:
 - username: `admin`
 - password: `admin123`
 
-![mainmenu page](./screenshots/mainmenu.PNG)
+
 ### Main menu
-This page displays the events, clicking on a date label on the calendar displays 
-a form for the user to add details for an event
+This page displays the events on a calendar
+
+![mainmenu page](./screenshots/mainmenu.PNG)
+
+Clicking on a date label on the calendar displays a form for the user to add details for an event
 
 ![form for add events](./screenshots/add_event.PNG)
 
@@ -37,12 +42,14 @@ Clicking on the edit button allows you to modify the details
 
 ![edit event details](./screenshots/edit_event.PNG)
 
-![societies page](./screenshots/societies.PNG)
 ### Societies
+![societies page](./screenshots/societies.PNG)
+
 Clicking on a society name label displays its details in a form for you to update
 
 ![edit society details](./screenshots/edit_society.PNG)
 
-![settings page](./screenshots/settings.PNG)
 ### Settings
 This page allows the user to change their password
+
+![settings page](./screenshots/settings.PNG)
